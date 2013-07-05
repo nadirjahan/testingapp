@@ -10,6 +10,7 @@ DeviseCancanApp::Application.routes.draw do
 get '/home'=> "home#home"
 get '/contact'=> "home#contact"
 get '/message'=> "home#message"
+root :to=> "home#home"
 
 
 
