@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/ernie/ransack.git
-  revision: 987295112997d371e1d7cbb3580e7feb615e4d56
+  revision: 566332e4dc64602d23fb2cf5a85b7612fbc024a8
   branch: rails-4
   specs:
     ransack (0.7.3)
@@ -10,7 +10,7 @@ GIT
 
 GIT
   remote: git://github.com/gregbell/active_admin.git
-  revision: 51a5a72974ba36cfe199d78eebb0747018e48edc
+  revision: cef18df4ecfc1b64c0b4a42aed6585dc13f5dde7
   branch: rails4
   specs:
     activeadmin (0.6.0)
@@ -37,7 +37,7 @@ GIT
 
 GIT
   remote: git://github.com/justinfrench/formtastic.git
-  revision: 593ed1e43e8fbf35da589186720d35e7f444519f
+  revision: 58ef0ee246bb2aa4e32f19faab8d737f6c3ab963
   specs:
     formtastic (2.2.1)
       actionpack (>= 3.0)
@@ -102,7 +102,7 @@ GEM
     coffee-script (2.2.0)
       coffee-script-source
       execjs
-    coffee-script-source (1.6.2)
+    coffee-script-source (1.6.3)
     columnize (0.3.6)
     debugger (1.6.0)
       columnize (>= 0.3.1)
@@ -125,7 +125,7 @@ GEM
     jbuilder (1.4.2)
       activesupport (>= 3.0.0)
       multi_json (>= 1.2.0)
-    jquery-rails (3.0.1)
+    jquery-rails (3.0.2)
       railties (>= 3.0, < 5.0)
       thor (>= 0.14, < 2.0)
     jquery-ui-rails (4.0.3)
