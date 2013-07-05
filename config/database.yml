@@ -23,7 +23,9 @@ test:
   timeout: 5000
 
 production:
-  adapter: postgres
+  adapter:postgresql
   database: devise_cancan_production
+  usename: root
+  password: veriqual
   pool: 5
   timeout: 5000
