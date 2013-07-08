@@ -6,8 +6,8 @@ class User < ActiveRecord::Base
   has_many :authentications
 
 
-  devise :database_authenticatable, :registerable,
-         :recoverable, :rememberable, :trackable, :validatable
+  devise :database_authenticatable
+         , :validatable
 
   # Setup accessible (or protected) attributes for your model
 

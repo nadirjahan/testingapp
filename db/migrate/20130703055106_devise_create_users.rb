@@ -4,9 +4,7 @@ class DeviseCreateUsers < ActiveRecord::Migration
      # t.database_authenticatable :null => false
       t.string :email,              :null => false, :default => ""
       t.string :encrypted_password, :null => false, :default => ""
-      t.recoverable
-      t.rememberable
-      t.trackable
+
       t.string :username
 
       # t.encryptable
